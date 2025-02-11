@@ -39,3 +39,21 @@ Este projeto consiste em uma replicação da interface web do Spotify, focando n
 5.  **Abra o navegador:**
 
     Acesse `http://localhost:5173` (ou a porta que for exibida no terminal) para visualizar a aplicação.
+
+## Diário de Bordo (Roadmap)
+
+Este diário de bordo registra o progresso do projeto, as decisões tomadas e os desafios superados.
+
+### Dia 1: Estrutura do Projeto e Componentes Iniciais (Data: [10/02/2025])
+
+*   **Atividades:**
+    *   Configuração inicial do projeto Spotify com React + Vite.
+    *   Criação dos componentes `Header` e `Main`.
+    *   Definição da estrutura básica do layout.
+    *   Estilização inicial com CSS.
+*   **Desafios:**
+    *   Entendimento da estrutura de pastas recomendada para projetos React.
+    *   Configuração das variáveis CSS para cores e propriedades.
+*   **Decisões:**
+    *   Utilização do Vite para agilizar o desenvolvimento.
+    *   Adoção de uma abordagem de componentes reutilizáveis desde o início.
