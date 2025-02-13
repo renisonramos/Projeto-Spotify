@@ -57,3 +57,24 @@ Este diário de bordo registra o progresso do projeto, as decisões tomadas e os
 *   **Decisões:**
     *   Utilização do Vite para agilizar o desenvolvimento.
     *   Adoção de uma abordagem de componentes reutilizáveis desde o início.
+
+    ### Dia 2 e 3: Implementação das Rotas e Exibição de Dados Dinâmicos (Data: [11/02/2025 e 12/02/2025])
+
+*   **Atividades:**
+    *   Instalação da biblioteca `react-router-dom`.
+    *   Criação dos componentes básicos para as páginas principais (Home, Artistas, Músicas).
+    *   Definição das rotas no componente `App.jsx` usando `BrowserRouter`, `Routes` e `Route`.
+    *   Adição dos componentes `Link` no cabeçalho (`Header.jsx`) para navegar entre as páginas.
+    *   Implementação da lógica para exibir as listas de artistas e músicas na página principal.
+    *   Movimentação das listas de artistas e músicas da pasta `database` para o componente `Main`.
+    *   Configuração da exibição de múltiplos artistas e músicas, com base em um parâmetro (ex: limite de itens a serem exibidos).
+*   **Desafios:**
+    *   Entendimento da estrutura de rotas do `react-router-dom`.
+    *   Configuração correta dos componentes `Route` e `Link`.
+    *   Organização dos componentes das páginas em uma pasta separada (`pages`).
+    *   Implementação da lógica para exibir as listas de forma dinâmica.
+    *   Garantia de que as listas de artistas e músicas sejam exibidas corretamente após a movimentação dos arquivos.
+*   **Decisões:**
+    *   Utilização do `react-router-dom` para facilitar a criação de rotas e a navegação entre as páginas.
+    *   Adoção de uma estrutura de pastas organizada para os componentes das páginas.
+    *   Exibição das listas de artistas e músicas de forma dinâmica para evitar a repetição de código e facilitar a manutenção.
