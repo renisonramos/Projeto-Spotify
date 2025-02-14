@@ -78,3 +78,26 @@ Este diário de bordo registra o progresso do projeto, as decisões tomadas e os
     *   Utilização do `react-router-dom` para facilitar a criação de rotas e a navegação entre as páginas.
     *   Adoção de uma estrutura de pastas organizada para os componentes das páginas.
     *   Exibição das listas de artistas e músicas de forma dinâmica para evitar a repetição de código e facilitar a manutenção.
+
+    ## Diário de Bordo
+
+### Dia 3 e 4: Implementação da Navegação Dinâmica e Controle do Player (Data: [13/02/2025 e 14/02/2025])
+
+*   **Atividades:**
+
+    *   Implementação de lógica para exibir as 200 músicas na página de músicas e os 20 artistas na página de artistas, utilizando o hook `useLocation` do `react-router-dom`.
+    *   Criação da página de artistas (`PaginaArtistas.jsx`) com foco inicial na estrutura e no layout.
+    *   Integração de ícones para os controles de "voltar" e "próximo" no player de música, utilizando a biblioteca Font Awesome (já importada para o player).
+    *   Utilização de Objetos JavaScript para definir a "inteligência" das páginas, permitindo que a aplicação determine quais informações devem ser exibidas com base na URL acessada.
+*   **Desafios:**
+
+    *   Gerenciar a exibição seletiva de informações (músicas vs. artistas) com base no hook `useLocation`.
+    *   Estruturar a página de artistas (`PaginaArtistas.jsx`) de forma organizada e escalável.
+    *   Integrar os controles de navegação (voltar/próximo) de forma funcional e intuitiva.
+    *   Mapear as URLs aos dados dos artistas.
+*   **Decisões:**
+
+    *   Adoção do hook `useLocation` para criar páginas dinâmicas e responsivas ao contexto da URL.
+    *   Criação de um componente dedicado para a página de artistas, permitindo uma maior organização e manutenção do código.
+    *   Reutilização da biblioteca Font Awesome para os ícones de controle do player, evitando a importação de dependências desnecessárias.
+    *   Utilização de objetos para mapear as URLs dos artistas, permitindo que a aplicação determine quais informações devem ser exibidas.
