@@ -1,5 +1,5 @@
 import React from "react"; // Importa a biblioteca React, essencial para criar componentes e interfaces de usuário.
-import Main from "../assets/components/main"; // Importa o componente Main do arquivo "../assets/components/main.jsx".
+import Main from "../assets/components/ContentMain"; // Importa o componente Main do arquivo "../assets/components/main.jsx".
 
 const Artists = () => {
   // Define um componente funcional chamado Artists.
